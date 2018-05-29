@@ -97,7 +97,10 @@ int thread_id[THREADS];
   }
   
   for(p = 0; p <= x; p++){
+    if(p != x)
     printf("%d ", numeros[p]);
+    else
+    printf("%d", numeros[p]);
   }
   
   printf("\n");
